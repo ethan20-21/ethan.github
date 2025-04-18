@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title>Register</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="container">
+  <h1>Welcome to BH-Finder</h1>
+  <h3>Register Here!</h3>
+<form action="register.php" method="POST">
+  <fieldset>
+  <legend>Full Name*</legend>
+  <input type="text" name="name">
+  </fieldset>
+  <br>
+  <fieldset>
+  <legend>Email*</legend>
+  <input type="email" name="email">
+  </fieldset>
+  <br>
+  <fieldset>
+  <legend>Password*</legend>
+  <input type="password" name="password">
+  </fieldset>
+  <br>
+  <select name="role">
+    <option value="student">Student</option>
+    <option value="nonstudent">Non Student</option>
+  </select><br>
+  <button class="submit" name="register">Register</button>
+  <a href='login.html'>Login your account</a>
+  <br>
+  <br>
+  <b>or</b><br>
+  <b>Signup with</b>
+  &nbsp;&nbsp
+  <i class="fab fa-facebook fa-2x" style="color:#1877f2; font-size: 20px;"></i></a>
+  &nbsp
+  &nbsp
+  <i class="fab fa-tiktok fa-2x" style="color:orange; background: linear-gradient(135deg, cyan, red); -webkit-background-clip:text; -webkit-text-fill-color: transparent; font-size: 20px;"></i>
+  &nbsp
+  &nbsp
+  <i class="fab fa-twitter fab-2x" style="color:skyblue; font-size: 20px;"></i>
+  &nbsp
+  &nbsp
+  <i class="fab fa-instagram fab-2x" style="font-size: 20px; background: var(--instagram-gradient);
+    background: linear-gradient(45deg, red, orange, purple); -webkit-background-clip:text;
+      -webkit-text-fill-color: transparent;"></i>
+</form>
+</div>
+</body>
+</html>

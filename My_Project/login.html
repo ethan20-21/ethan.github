@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login</title>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="container">
+<h2>Login</h2>
+<form action="login.php" method="POST">
+  <fieldset>
+<legend>Email*</legend>
+  <input type="email" name="email">
+  </fieldset>
+  <br>
+  <fieldset>
+    <legend>Password*</legend>
+  <input type="password" name="password">
+  </fieldset>
+  <br>
+  <button class="submit" name="login">Login</button>
+  <a href='register.html'>Create new account</a>
+  <br>
+  <div style="text-align: center; margin-top: 20px;">
+  <a href="forgot-password.html" style="color:blue; background:none; background:hover: none; text-decoration: underline;">Forgot password?</a></div>
+  <br>
+  <b>or</b><br>
+  <b>Login with</b>
+  &nbsp;&nbsp
+  <i class="fab fa-facebook fa-2x" style="color:#1877f2; font-size: 20px;"></i>
+  &nbsp
+  &nbsp
+  <i class="fab fa-tiktok fa-2x" style="color:orange; background: linear-gradient(135deg, cyan, red); -webkit-background-clip:text; -webkit-text-fill-color: transparent; font-size: 20px;"></i>
+  &nbsp
+  &nbsp
+  <i class="fab fa-twitter fab-2x" style="color:skyblue; font-size: 20px;"></i>
+  &nbsp
+  &nbsp
+  <i class="fab fa-instagram fab-2x" style="font-size: 20px; background: var(--instagram-gradient);
+    background: linear-gradient(45deg, red, orange, purple); -webkit-background-clip:text;
+      -webkit-text-fill-color: transparent;"></i>
+</form>
+</div>
+</body>
+</html>
